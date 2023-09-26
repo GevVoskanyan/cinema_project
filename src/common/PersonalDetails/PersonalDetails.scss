@@ -1,0 +1,48 @@
+@import "../../styles/abstracts/variables";
+.personal {
+  &__title {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 49px;
+    letter-spacing: 0em;
+    color: #fff;
+  }
+  &__banner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 90%;
+    padding: 20px 30px;
+    background-color: #000;
+    margin-bottom: 70px;
+    border-radius: 15px;
+    &_inputs {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+    }
+    &_inp_container {
+      width: 48%;
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+    &_inp {
+      width: 100%;
+      color: $dark;
+      outline: none;
+      padding: 10px 15px;
+      border-radius: 10px;
+      border: none;
+      font-size: 18px;
+    }
+    &_inp_icon {
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translate(-50%, -50%);
+      font-size: 24px;
+      color: $dark;
+    }
+  }
+}

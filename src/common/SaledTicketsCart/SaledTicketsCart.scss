@@ -1,0 +1,26 @@
+.saled_tickets {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+  background-color: rgb(181, 182, 182);
+  margin-bottom: 5px;
+  border-radius: 20px;
+
+  &_item {
+    color: rgb(19, 95, 85);
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  &_del {
+    border: none;
+    background-color: transparent;
+    font-size: 23px;
+    color: rgb(19, 95, 85);
+  }
+
+
+}
+

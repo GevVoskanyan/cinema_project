@@ -1,0 +1,86 @@
+.contact_message {
+  &_container {
+    width: 100%;
+    max-width: 685px;
+    margin: 0 auto;
+  }
+  .btn_orange {
+    display: flex;
+    margin: 0 auto 30px;
+  }
+  &_title {
+    color: #e8920b;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+  &_inp {
+    width: 100%;
+    height: 380px;
+    resize: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 15px;
+    color: #135f55;
+    background-color: #ccc;
+    margin-bottom: 20px;
+    &::placeholder {
+      color: #135f55;
+      font-size: 24px;
+      font-weight: 600;
+    }
+  }
+  &_soc_title {
+    color: #fff;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  &_soc_container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto 25px;
+  }
+  &_soc_icon_container {
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    &:nth-child(1) > .contact_message_soc_icon {
+      background-color: rgb(59, 89, 152);
+    }
+    &:nth-child(2) > .contact_message_soc_icon {
+      background: linear-gradient(
+        #ffd521,
+        #ffd020,
+        #fec01e,
+        #fca71b,
+        #fa8316,
+        #f85510,
+        #f51e09,
+        #f30005,
+        #f20007,
+        #e1003b,
+        #d30067,
+        #c70088,
+        #bf00a0,
+        #bb00af,
+        #b900b4
+      );
+    }
+    &:nth-child(3) > .contact_message_soc_icon {
+      background-color: rgb(29, 161, 242);
+    }
+  }
+  &_soc_icon {
+    padding: 7px;
+    color: #fff;
+    font-size: 40px;
+    border-radius: 50%;
+  }
+}

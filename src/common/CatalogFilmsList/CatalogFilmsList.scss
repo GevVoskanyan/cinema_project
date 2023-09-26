@@ -1,0 +1,9 @@
+.catalog_films_list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  &_item {
+    width: calc(100% / 3 - 30px);
+  }
+}

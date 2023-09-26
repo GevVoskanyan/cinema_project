@@ -1,0 +1,25 @@
+@import "../../styles/abstracts/variables";
+
+.contact {
+  background-color: rgb(28, 40, 39);
+  &_container {
+    width: 100%;
+    max-width: 1050px;
+    height: fit-content;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-bottom: 60px;
+  }
+  &_title {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 70px;
+  }
+  .map_frame {
+    width: 100%;
+    height: 366px;
+    border-radius: 0 0 20px 20px;
+  }
+}

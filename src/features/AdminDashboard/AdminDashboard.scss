@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.admin_dashboard {
+  width: 80%;
+  padding: 18px;
+
+  &_tickets {
+    color: #fff;
+    margin-bottom: 50px;
+
+    &_title {
+      font-family: "Roboto-Medium", sans-serif;
+      font-size: 24px;
+      font-weight: 600;
+    }
+
+    &_count {
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+
+  &_content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    &_titles {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 10px;
+      &:last-child {
+
+      }
+    }
+
+    &_title {
+      color: #fff;
+      font-size: 24px;
+      font-weight: 700;
+    }
+  }
+
+  &_more {
+    background-color: transparent;
+    padding: 5px 15px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    border: none;
+    color: #E8920B;
+    font-size: 24px;
+    font-weight: 700;
+  }
+}
+
+.te {
+  padding: 5px 20px;
+}

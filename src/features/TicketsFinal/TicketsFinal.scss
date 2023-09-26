@@ -1,0 +1,49 @@
+@import "../../styles/abstracts/variables";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.tickets_final {
+  background-color: $bg-color;
+  &_container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .active_2 {
+      background-color: $orange;
+      border: none;
+    }
+    .active_3 {
+      background-color: $orange;
+      border: none;
+    }
+    .f_i {
+      visibility: visible;
+    }
+    .s_i {
+      visibility: visible;
+    }
+    .t_i {
+      visibility: visible;
+    }
+  }
+  &_title {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 600;
+  }
+  &_email_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+  &_email_title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+  }
+}

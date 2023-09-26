@@ -1,0 +1,18 @@
+.movies_list {
+  color: #fff;
+
+  &_users {
+    padding: 18px;
+
+    &_title {
+      color: #FFF;
+      font-size: 24px;
+      font-weight: 600;
+    }
+
+    &_count {
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+}

@@ -1,0 +1,52 @@
+@import "../../styles/abstracts/variables";
+
+.ticket_steps {
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+  &_container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  &_circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid #135f55;
+    &_icon {
+      font-size: 30px;
+      color: rgb(19, 95, 85);
+      visibility: hidden;
+    }
+    &_title {
+      display: flex;
+      width: fit-content;
+      position: absolute;
+      top: 45px;
+      left: 0;
+      color: #fff;
+      font-family: Roboto-Medium;
+      font-size: 16px;
+      font-weight: 600;
+      &_num {
+        display: flex;
+        margin-right: 5px;
+      }
+    }
+  }
+  &_line {
+    width: 220px;
+    height: 1px;
+    background-color: $orange;
+  }
+  .active_1 {
+    background-color: $orange;
+    border: none;
+  }
+}

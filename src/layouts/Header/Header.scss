@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+  &__container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  &__nav_bar {
+    display: flex;
+    align-items: center;
+  }
+  &__nav_bar_list {
+    display: flex;
+  }
+  &__nav_bar_item {
+    &:nth-child(2n) {
+      margin: 0 80px;
+    }
+  }
+  &__nav_bar_link {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    color: #d9d9d9;
+  }
+  &_btns {
+    display: flex;
+    align-items: center;
+  }
+  &__sign-in {
+    color: #d9d9d9;
+    font-size: 24px;
+    font-weight: 600;
+    padding-right: 30px;
+  }
+  &__sign-up {
+    background: #e8920b;
+    &:hover {
+      background-color: #c67e11;
+    }
+  }
+}

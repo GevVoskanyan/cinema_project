@@ -1,0 +1,112 @@
+.search_bar {
+  width: 100%;
+  margin-bottom: 50px;
+  &_container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &_left_side {
+    display: flex;
+    width: 100%;
+    max-width: 140px;
+  }
+
+  &_select {
+    width: 100%;
+    max-width: 140px;
+    &::placeholder {
+      color: #135f55;
+    }
+  }
+  [class="search_bar_select css-b62m3t-container"] {
+    width: 100%;
+    max-width: 140px;
+    color: #135f55;
+    display: flex;
+    align-items: center;
+    font-family: "Roboto-Bold", sans-serif;
+    font-size: 14px;
+  }
+  [class=" css-1xc3v61-indicatorContainer"],
+  [class=" css-1u9des2-indicatorSeparator"],
+  [class=" css-1hb7zxy-IndicatorsContainer"] {
+    display: none;
+  }
+
+  [class=" css-13cymwt-control"] {
+    width: 100%;
+    border-radius: 20px;
+    // background: #bbbbbb;
+    color: #135f55;
+  }
+  [class=" css-1fdsijx-ValueContainer"] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #135f55;
+  }
+  [class=" css-1dimb5e-singleValue"] {
+    color: #135f55;
+  }
+  [class=" css-t3ipsp-control"] {
+    width: 100%;
+    border-radius: 20px;
+    // background: #bbbbbb;
+    color: #135f55;
+  }
+  .custom-placeholder {
+    display: flex;
+    align-items: center;
+  }
+  .menu-icon {
+    margin-right: 8px;
+    font-size: 14px;
+  }
+  &_right_side {
+    display: flex;
+    align-items: center;
+  }
+  &_inp_container {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    width: 480px;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  &_inp {
+    width: 100%;
+    padding: 7px 7px 7px 60px;
+    border-radius: 20px;
+    border: 1px solid rgba(217, 217, 217, 0.62);
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+    &::placeholder {
+      color: #fff;
+      font-size: 18px;
+      font-weight: 400;
+    }
+  }
+  &_btn {
+    background-color: #185c53;
+    &:hover {
+      background-color: #14534a;
+    }
+  }
+  &_search_icon {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translate(-50%, -50%);
+    font-size: 23px;
+  }
+}

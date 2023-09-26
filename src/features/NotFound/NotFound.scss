@@ -1,0 +1,20 @@
+.not_found {
+  width: 100%;
+  background-color: #1d1f1f;
+  padding: 20px;
+  color: #fff;
+  &_container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &_btn {
+    background: #e8920b;
+    &:hover {
+      background-color: #c67e11;
+    }
+  }
+}

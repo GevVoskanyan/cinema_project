@@ -1,0 +1,49 @@
+.select_container {
+  width: 100%;
+  max-width: 650px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.ticket_select {
+  width: calc(50% - 10px);
+  background-color: #000 !important;
+
+  [class=" css-13cymwt-control"] {
+    background-color: #000 !important;
+    border: none !important;
+    color: #fff !important;
+    padding: 5px;
+  }
+
+  [class=" css-1u9des2-indicatorSeparator"] {
+    display: none;
+  }
+
+  [class=" css-1jqq78o-placeholder"] {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  [class=" css-t3ipsp-control"] {
+    background-color: #000 !important;
+    padding: 5px;
+  }
+  [class=" css-1fdsijx-ValueContainer"] {
+    background-color: #000 !important;
+    color: #fff;
+  }
+  [class=" css-1dimb5e-singleValue"] {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  [class=" css-1nmdiq5-menu"] {
+    background-color: #000;
+    color: #fff;
+  }
+  [class=" css-d7l1ni-option"] {
+    color: #000;
+  }
+}

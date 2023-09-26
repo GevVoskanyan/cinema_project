@@ -1,0 +1,40 @@
+@import "../../styles/abstracts/variables";
+
+.checkout {
+  background-color: $bg-color;
+  &_container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    .btn_orange {
+      display: flex;
+      width: fit-content;
+      margin-left: auto;
+      margin-bottom: 60px;
+    }
+  }
+  &_next {
+    width: 90%;
+  }
+  .f_i {
+    visibility: visible;
+  }
+  .active_2 {
+    background-color: $orange;
+    border: none;
+  }
+  .s_i {
+    visibility: visible;
+  }
+  .active_3 {
+    background-color: $orange;
+    border: none;
+  }
+  &_title {
+    color: #fff;
+    font-family: Roboto-Medium;
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+}

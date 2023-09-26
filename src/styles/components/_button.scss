@@ -1,0 +1,25 @@
+.btn {
+  border-radius: 20px;
+  padding: 5px 40px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  box-shadow: -6px -6px 22px 0px rgba(0, 0, 0, 0.5) inset,
+    6px 6px 35px 0px rgba(255, 255, 255, 0.1) inset;
+  &:hover {
+    color: #fff;
+  }
+}
+
+.more {
+  display: flex;
+  border: none;
+  background-color: transparent;
+  color: #e8920b;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 40px auto 80px;
+}

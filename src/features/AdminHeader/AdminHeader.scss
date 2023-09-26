@@ -1,0 +1,58 @@
+
+.admin__header {
+  padding: 40px 0;
+
+  &_container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  &_content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &_logo {
+    width: 50px;
+
+    &_img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &_user_container {
+    display: flex;
+  }
+
+  &_user_icon_container {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #E8920BFF;
+    color: #E8920BFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 3px 0 0 0;
+  }
+
+  &_user_icon {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &_user_dropdown {
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+    font-size: 30px;
+    color: #E8920BFF;
+  }
+}

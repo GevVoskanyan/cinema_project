@@ -1,0 +1,40 @@
+@import "../../styles/abstracts/variables";
+.seats {
+  background-color: $bg-color;
+  &__container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .f_i {
+    visibility: visible;
+  }
+  .active_2 {
+    background-color: $orange;
+    border: none;
+  }
+  .hall {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 65px;
+  }
+}
+
+.hall_btns {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 60px;
+}
+.hall_btn_cancel {
+  background-color: transparent;
+  border: 2px solid $orange;
+  color: $orange !important;
+  background-color: transparent;
+  margin-right: 10px;
+
+  &:hover {
+    background-color: transparent;
+    border: 2px solid $orange;
+  }
+}

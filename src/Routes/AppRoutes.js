@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import Home from '../features/Home/Home';
 import NotFound from '../features/NotFound/NotFound';
 import SignIn from '../features/SignIn/SignIn';
@@ -28,7 +28,7 @@ function AppRoutes(props) {
       <Route path="/tickets/seats/:filmId" element={<Hall />} />
       <Route path="/tickets/checkout/:filmId" element={<Checkout />} />
       <Route path="/tickets/final/:filmId" element={<TicketsFinal />} />
-      <Route path={'admin/*'} element={<Admin />}>
+      <Route path="admin/*" element={<Admin />}>
         <Route path="dashboard" element={<AdminDashboard />} />
         <Route path="movies-list" element={<AdminMoviesList />} />
       </Route>

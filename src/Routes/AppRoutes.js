@@ -28,7 +28,8 @@ function AppRoutes(props) {
       <Route path="/tickets/seats/:filmId" element={<Hall />} />
       <Route path="/tickets/checkout/:filmId" element={<Checkout />} />
       <Route path="/tickets/final/:filmId" element={<TicketsFinal />} />
-      <Route path="admin/*" element={<Admin />}>
+      <Route path="/admin/*" element={<Admin />}>
+        <Route index element={<AdminDashboard />} />
         <Route path="dashboard" element={<AdminDashboard />} />
         <Route path="movies-list" element={<AdminMoviesList />} />
       </Route>
@@ -36,5 +37,4 @@ function AppRoutes(props) {
     </Routes>
   );
 }
-
 export default AppRoutes;

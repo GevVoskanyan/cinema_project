@@ -2,10 +2,12 @@ import React from 'react';
 import './AdminMovieCart.scss';
 
 function AdminMovieCart({ movie }) {
-  console.log('movie', movie);
   return (
     <div className="movie_card">
-      dw
+      <figure className="movie_card__image_container">
+        <img src={movie.img} alt={movie.title} className="movie_card__image" />
+      </figure>
+      <div className="movie_card_title">{movie.title}</div>
     </div>
   );
 }

@@ -13,7 +13,7 @@ function AdminMoviesList(props) {
         <span className="movies_list_users_count">1500 User</span>
       </div>
       <div className="movies_list_container">
-        <button type="button" className="movies_list_add_movie" onClick={() => navigate('add-movie')}>+</button>
+        <button type="button" className="movies_list_add_movie" onClick={() => navigate('/admin/add-movie')}>+</button>
         <div className="movies_list_items">
           {moviesList.map((movie) => (
             <React.Fragment key={movie.id}>

@@ -1,0 +1,25 @@
+.add_move {
+  color: #fff;
+  width: 80%;
+  padding: 30px;
+
+  &_users {
+    padding: 18px;
+
+    &_title {
+      color: #fff;
+      font-size: 24px;
+      font-weight: 600;
+    }
+
+    &_count {
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+  .btn{
+    margin: 20px 0 ;
+    display: flex;
+    margin-left: auto;
+  }
+}

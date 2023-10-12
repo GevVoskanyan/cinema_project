@@ -14,6 +14,7 @@ import ContactUs from '../features/ContactUs/ContactUs';
 import Admin from '../features/Admin/Admin';
 import AdminDashboard from '../features/AdminDashboard/AdminDasboard';
 import AdminMoviesList from '../features/AdminMoviesList/AdminMoviesList';
+import AdminAddMovie from '../features/AdminAddMovie/AdminAddMovie';
 
 function AppRoutes(props) {
   return (
@@ -32,6 +33,7 @@ function AppRoutes(props) {
         <Route index element={<AdminDashboard />} />
         <Route path="dashboard" element={<AdminDashboard />} />
         <Route path="movies-list" element={<AdminMoviesList />} />
+        <Route path="add-movie" element={<AdminAddMovie />} />
       </Route>
       <Route path="*" element={<NotFound />} />
     </Routes>

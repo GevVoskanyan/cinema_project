@@ -3,25 +3,17 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: [
-    'plugin:react/recommended',
-    'airbnb',
-  ],
-  overrides: [
-  ],
+  extends: ['plugin:react/recommended', 'airbnb'],
   parserOptions: {
-    ecmaVersion: 'latest',
+    ecmaVersion: 2023,
     sourceType: 'module',
   },
-  plugins: [
-    'react',
-  ],
+  plugins: ['react'],
   rules: {
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'react/react-in-jsx-scope': 'off',
     'react/prop-types': 'off',
     'no-trailing-spaces': 'off',
-    'max-len': ['error', { code: 300 }],
     'vue/require-context-injector': 'off',
     'react/destructuring-assignment': 'off',
     'linebreak-style': 'off',
@@ -32,5 +24,6 @@ module.exports = {
     'no-return-assign': 'off',
     'jsx-a11y/label-has-associated-control': 'off',
     'react/jsx-props-no-spreading': 'off',
+    'import/no-self-import': 'off',
   },
 };

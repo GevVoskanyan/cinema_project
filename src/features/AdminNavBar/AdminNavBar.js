@@ -13,7 +13,7 @@ function AdminNavBar(props) {
         <NavLink to="movies-list" className="admin__nav_bar_link thir">Movie List</NavLink>
       </li>
       <li className="admin__nav_bar_item">
-        <NavLink to="fefe" className="admin__nav_bar_link fouth">Add Movie</NavLink>
+        <NavLink to="add-movie" className="admin__nav_bar_link fouth">Add Movie</NavLink>
       </li>
       <li className="admin__nav_bar_item">
         <NavLink to="fedfe" className="admin__nav_bar_link five">User List</NavLink>

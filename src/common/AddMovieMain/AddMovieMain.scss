@@ -1,0 +1,78 @@
+.add_movie_main {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+
+  &_left {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+    &_upload {
+      font-size: 50px;
+      color: #135f55;
+    }
+
+    &_upload_label_t {
+      display: flex;
+      color: #135f55;
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    &_upload_label {
+      padding: 50px 80px;
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-bottom: 7px;
+      border-radius: 30px;
+    }
+
+    &_inp {
+      padding: 10px;
+      outline: none;
+      margin-bottom: 10px;
+      border-radius: 20px;
+      border: none;
+      color: #135f55;
+      font-family: Roboto-Medium;
+
+      &::placeholder {
+        font-family: Roboto-Medium;
+        font-size: 16px;
+        font-weight: 400;
+        color: #135f55;
+      }
+    }
+  }
+
+  &_rigth {
+    width: 65%;
+
+    &_txt {
+      width: 100%;
+      padding: 30px;
+      outline: none;
+      height: 100%;
+      max-height: 370px;
+      border-radius: 30px;
+      outline: none;
+      color: #135f55;
+      font-family: Roboto-Medium;
+      font-size: 24px;
+      font-weight: 700;
+      resize: none;
+
+      &::placeholder {
+        color: #135f55;
+        font-family: Roboto-Medium;
+        font-size: 24px;
+        font-weight: 700;
+      }
+    }
+  }
+}

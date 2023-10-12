@@ -1,0 +1,40 @@
+.add_details_left_content_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+
+  &_avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #000;
+
+    &_icon {
+      font-size: 30px;
+    }
+  }
+
+  &_inp {
+    display: flex;
+    width: 75%;
+    padding: 10px;
+    border: 2px solid #135F55;
+    outline: none;
+    border-radius: 20px;
+    color: #135F55;
+    font-size: 16px;
+    font-weight: 400;
+
+    &::placeholder {
+      color: #135F55;
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+
+}
+

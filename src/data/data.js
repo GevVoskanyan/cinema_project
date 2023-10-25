@@ -1,6 +1,7 @@
 import one from './img/latest/one.png';
 import film_2012 from './img/latest/film_2012.png';
 import twelveYearsToSlave from './img/latest/twelveYearsToSlave.png';
+import actor_1 from './img/actor_1.png';
 
 export const latest = [
   {
@@ -178,3 +179,172 @@ export const moviesList = [{
   triller: 'https://www.youtube.com/embed/z02Ie8wKKRg',
   voters: '180k',
 }];
+
+export const usersList = [
+  {
+    number: 'N1450',
+    userName: 'Jon Nick',
+    date: '10.05.2019',
+    price: '$15',
+    avatar: `${actor_1}`,
+    id: 1,
+    films: [
+      {
+        title: '1+1',
+        img: `${one}`,
+        id: 1,
+        rating: 5,
+        triller: 'https://www.youtube.com/embed/tTwFeGArcrs',
+        voters: '180k',
+      },
+      {
+        title: '2012',
+        img: `${film_2012}`,
+        id: 2,
+        rating: 5,
+        triller: 'https://www.youtube.com/embed/Z3hf8RmHxMo',
+        voters: '180k',
+      },
+      {
+        title: '12 Years To Slave',
+        img: `${twelveYearsToSlave}`,
+        id: 3,
+        rating: 5,
+        triller: 'https://www.youtube.com/embed/z02Ie8wKKRg',
+        voters: '180k',
+      },
+      {
+        title: '1+1',
+        img: `${one}`,
+        id: 4,
+        rating: 5,
+        triller: 'https://www.youtube.com/embed/tTwFeGArcrs',
+        voters: '180k',
+      }],
+  },
+  {
+    number: 'N1450',
+    userName: 'Jon Nick',
+    date: '10.05.2019',
+    price: '$15',
+    avatar: `${actor_1}`,
+    id: 2,
+    films: [
+      {
+        title: '1+1',
+        img: `${one}`,
+        id: 1,
+        rating: 5,
+        triller: 'https://www.youtube.com/embed/tTwFeGArcrs',
+        voters: '180k',
+      },
+      {
+        title: '2012',
+        img: `${film_2012}`,
+        id: 2,
+        rating: 5,
+        triller: 'https://www.youtube.com/embed/Z3hf8RmHxMo',
+        voters: '180k',
+      },
+      {
+        title: '12 Years To Slave',
+        img: `${twelveYearsToSlave}`,
+        id: 3,
+        rating: 5,
+        triller: 'https://www.youtube.com/embed/z02Ie8wKKRg',
+        voters: '180k',
+      },
+      {
+        title: '1+1',
+        img: `${one}`,
+        id: 4,
+        rating: 5,
+        triller: 'https://www.youtube.com/embed/tTwFeGArcrs',
+        voters: '180k',
+      }],
+  },
+  {
+    number: 'N1450',
+    userName: 'Jon Nick',
+    date: '10.05.2019',
+    price: '$15',
+    avatar: `${actor_1}`,
+    id: 3,
+    films: [
+      {
+        title: '1+1',
+        img: `${one}`,
+        id: 1,
+        rating: 5,
+        triller: 'https://www.youtube.com/embed/tTwFeGArcrs',
+        voters: '180k',
+      },
+      {
+        title: '2012',
+        img: `${film_2012}`,
+        id: 2,
+        rating: 5,
+        triller: 'https://www.youtube.com/embed/Z3hf8RmHxMo',
+        voters: '180k',
+      },
+      {
+        title: '12 Years To Slave',
+        img: `${twelveYearsToSlave}`,
+        id: 3,
+        rating: 5,
+        triller: 'https://www.youtube.com/embed/z02Ie8wKKRg',
+        voters: '180k',
+      },
+      {
+        title: '1+1',
+        img: `${one}`,
+        id: 4,
+        rating: 5,
+        triller: 'https://www.youtube.com/embed/tTwFeGArcrs',
+        voters: '180k',
+      }],
+  },
+
+];
+export const reviewsList = [
+  {
+    number: 'N1450',
+    userName: 'Jon Nick',
+    date: '10.05.2019',
+    price: '$15',
+    avatar: `${actor_1}`,
+    rating: 5,
+    id: 1,
+    desc: 'This is the best movie I have ever seen. I\'ve watched it for the hundredth time, but every time it\'s like the first. In the end, it grows to tears, no matter how many times',
+  },
+  {
+    number: 'N1450',
+    userName: 'Jon Nick',
+    date: '10.05.2019',
+    price: '$15',
+    avatar: `${actor_1}`,
+    rating: 4,
+    id: 4,
+    desc: 'This is the best movie I have ever seen. I\'ve watched it for the hundredth time, but every time it\'s like the first. In the end, it grows to tears, no matter how many times',
+  },
+  {
+    number: 'N1450',
+    userName: 'Jon Nick',
+    date: '10.05.2019',
+    price: '$15',
+    rating: 5,
+    avatar: `${actor_1}`,
+    id: 2,
+    desc: 'This is the best movie I have ever seen. I\'ve watched it for the hundredth time, but every time it\'s like the first. In the end, it grows to tears, no matter how many times',
+  },
+  {
+    number: 'N1450',
+    userName: 'Jon Nick',
+    date: '10.05.2019',
+    price: '$15',
+    avatar: `${actor_1}`,
+    id: 3,
+    rating: 5,
+    desc: 'This is the best movie I have ever seen. I\'ve watched it for the hundredth time, but every time it\'s like the first. In the end, it grows to tears, no matter how many times',
+  },
+];

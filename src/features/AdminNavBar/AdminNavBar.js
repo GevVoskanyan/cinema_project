@@ -16,10 +16,10 @@ function AdminNavBar(props) {
         <NavLink to="add-movie" className="admin__nav_bar_link fouth">Add Movie</NavLink>
       </li>
       <li className="admin__nav_bar_item">
-        <NavLink to="fedfe" className="admin__nav_bar_link five">User List</NavLink>
+        <NavLink to="users-list" className="admin__nav_bar_link five">User List</NavLink>
       </li>
       <li className="admin__nav_bar_item">
-        <NavLink to="dasfefefhboard" className="admin__nav_bar_link six">Review List</NavLink>
+        <NavLink to="review-list" className="admin__nav_bar_link six">Review List</NavLink>
       </li>
     </ul>
   );

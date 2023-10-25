@@ -19,14 +19,21 @@
     font-size: 22px;
     font-weight: 600;
     text-transform: uppercase;
+    &.active {
+      background-color: #000;
+      border-radius: 25px 0 0 25px;
+    }
+
+    &:after{
+
+    }
   }
 
+
+
 }
 
-.active {
-  background-color: #000;
-  border-radius: 25px 0 0 25px;
-}
+
 
 ul {
   margin: 0;

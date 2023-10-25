@@ -25,5 +25,6 @@ module.exports = {
     'jsx-a11y/label-has-associated-control': 'off',
     'react/jsx-props-no-spreading': 'off',
     'import/no-self-import': 'off',
+    'comma-dangle': 'off',
   },
 };

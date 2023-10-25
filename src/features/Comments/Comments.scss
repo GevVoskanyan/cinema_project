@@ -4,8 +4,10 @@
   width: 100%;
   height: 14px;
 }
+
 .comments {
   background: rgba(19, 95, 85, 0.15);
+
   &_hidden {
     background-color: red;
     height: 1100px;
@@ -13,17 +15,20 @@
     top: 0;
     left: 0;
   }
+
   &__container {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 55px 0;
   }
+
   &__title {
     color: #fff;
     font-size: 42px;
     font-weight: 600;
   }
+
   &__first_blog {
     display: flex;
     justify-content: space-between;
@@ -31,6 +36,7 @@
     padding: 0 20px;
     margin-bottom: 65px;
   }
+
   &_link {
     color: #e8920b;
     font-size: 24px;
@@ -41,17 +47,34 @@
 .comments__container .slick-prev {
   &::before {
     content: url(../Home/img/icons/prev.png);
-    position: absolute !important;
-    bottom: 204px !important;
-    left: 1125px !important;
   }
 }
 
 .comments__container .slick-next {
   &::before {
     content: url(../Home/img/icons/next.png);
+  }
+}
+
+.comments__slider_blog {
+  position: relative;
+  width: 100%;
+
+  .slick-prev,
+  .slick-next {
     position: absolute !important;
-    bottom: 204px !important;
-    left: -46px !important;
+    top: -40px !important;
+    width: 50px;
+    display: flex !important;
+    height: 50px;
+    left: unset !important;
+  }
+
+  .slick-next {
+    right: 0 !important;
+  }
+
+  .slick-prev {
+    right: 50px !important;
   }
 }

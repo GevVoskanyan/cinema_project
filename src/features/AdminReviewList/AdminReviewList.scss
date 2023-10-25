@@ -1,0 +1,40 @@
+.review_list {
+  width: 80%;
+  color: #fff;
+
+  &_reviews {
+    padding: 18px;
+    margin-bottom: 55px;
+
+    &_title {
+      color: #fff;
+      font-size: 24px;
+      font-weight: 600;
+    }
+
+    &_count {
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+
+  &_rows {
+    display: flex;
+    width: 100%;
+    padding:0 10px 0 45px;
+    justify-content: space-between;
+  }
+  &_row {
+    text-align: end;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .sm{
+    width: 65px;
+  }
+  .lrg{
+    width: 400px;
+    text-align: start;
+  }
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 import './Home.scss';
 import Wrapper from '../Wrapper/Wrapper';
 import SearchBar from '../SearchBar/SearchBar';
@@ -8,6 +9,8 @@ import Comments from '../Comments/Comments';
 import { latest } from '../../data/data';
 
 function Home() {
+  const { test } = useSelector((store) => store.test);
+  console.log('🚀 ~ file: Home.js:13 ~ Home ~ test:', test);
   return (
     <section className="home">
       <Wrapper>

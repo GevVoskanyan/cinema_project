@@ -1,0 +1,39 @@
+.review {
+  display: flex;
+  align-items: center;
+padding: 10px 10px 50px 10px;
+  &_cart {
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    background: #BAC7C5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #1a5f55;
+    &_avatar_container{
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      margin: 0;
+    }
+    &_avatar{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+   &_userName{
+     font-size: 18px;
+     font-weight: 600;
+    }
+    &_desc{
+      display: flex;
+      width: 400px;
+      flex-wrap: wrap;
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+  }
+
+}

@@ -20,11 +20,14 @@ module.exports = {
     'react/jsx-one-expression-per-line': 'off',
     'no-unused-vars': 'off',
     camelcase: 'off',
+    quotes: 'off',
     'no-param-reassign': 'off',
     'no-return-assign': 'off',
     'jsx-a11y/label-has-associated-control': 'off',
     'react/jsx-props-no-spreading': 'off',
     'import/no-self-import': 'off',
     'comma-dangle': 'off',
+    'jsx-quotes': 'off',
+    "consistent-return": "off"
   },
 };

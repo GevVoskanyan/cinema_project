@@ -113,72 +113,98 @@ export const Country = [{}];
 export const year = [{}];
 export const buyTickets = [
   {
-    number: 'N1450', userName: 'Jon Nick', date: '10.05.2019', price: '$15', id: '1',
+    number: 'N1450',
+    userName: 'Jon Nick',
+    date: '10.05.2019',
+    price: '$15',
+    id: '1',
   },
   {
-    number: 'N1450', userName: 'Jon Nick', date: '10.05.2019', price: '$15', id: '2',
+    number: 'N1450',
+    userName: 'Jon Nick',
+    date: '10.05.2019',
+    price: '$15',
+    id: '2',
   },
   {
-    number: 'N1450', userName: 'Jon Nick', date: '10.05.2019', price: '$15', id: '3',
+    number: 'N1450',
+    userName: 'Jon Nick',
+    date: '10.05.2019',
+    price: '$15',
+    id: '3',
   },
   {
-    number: 'N1450', userName: 'Jon Nick', date: '10.05.2019', price: '$15', id: '4',
+    number: 'N1450',
+    userName: 'Jon Nick',
+    date: '10.05.2019',
+    price: '$15',
+    id: '4',
   },
   {
-    number: 'N1450', userName: 'Jon Nick', date: '10.05.2019', price: '$15', id: '5',
+    number: 'N1450',
+    userName: 'Jon Nick',
+    date: '10.05.2019',
+    price: '$15',
+    id: '5',
   },
   {
-    number: 'N1450', userName: 'Jon Nick', date: '10.05.2019', price: '$15', id: '6',
+    number: 'N1450',
+    userName: 'Jon Nick',
+    date: '10.05.2019',
+    price: '$15',
+    id: '6',
   },
 ];
-export const moviesList = [{
-  title: '1+1',
-  img: `${one}`,
-  id: 1,
-  rating: 5,
-  triller: 'https://www.youtube.com/embed/tTwFeGArcrs',
-  voters: '180k',
-},
-{
-  title: '2012',
-  img: `${film_2012}`,
-  id: 2,
-  rating: 5,
-  triller: 'https://www.youtube.com/embed/Z3hf8RmHxMo',
-  voters: '180k',
-},
-{
-  title: '12 Years To Slave',
-  img: `${twelveYearsToSlave}`,
-  id: 3,
-  rating: 5,
-  triller: 'https://www.youtube.com/embed/z02Ie8wKKRg',
-  voters: '180k',
-},
-{
-  title: '1+1',
-  img: `${one}`,
-  id: 4,
-  rating: 5,
-  triller: 'https://www.youtube.com/embed/tTwFeGArcrs',
-  voters: '180k',
-},
-{
-  title: '2012',
-  img: `${film_2012}`,
-  id: 5,
-  rating: 5,
-  triller: 'https://www.youtube.com/embed/Z3hf8RmHxMo',
-  voters: '180k',
-},
-{
-  title: '12 Years To Slave',
-  img: `${twelveYearsToSlave}`,
-  id: 6,
-  rating: 5,
-  triller: 'https://www.youtube.com/embed/z02Ie8wKKRg',
-  voters: '180k',
-}];
+export const moviesList = [
+  {
+    title: '1+1',
+    img: `${one}`,
+    id: 1,
+    rating: 5,
+    triller: 'https://www.youtube.com/embed/tTwFeGArcrs',
+    voters: '180k',
+  },
+  {
+    title: '2012',
+    img: `${film_2012}`,
+    id: 2,
+    rating: 5,
+    triller: 'https://www.youtube.com/embed/Z3hf8RmHxMo',
+    voters: '180k',
+  },
+  {
+    title: '12 Years To Slave',
+    img: `${twelveYearsToSlave}`,
+    id: 3,
+    rating: 5,
+    triller: 'https://www.youtube.com/embed/z02Ie8wKKRg',
+    voters: '180k',
+  },
+  {
+    title: '1+1',
+    img: `${one}`,
+    id: 4,
+    rating: 5,
+    triller: 'https://www.youtube.com/embed/tTwFeGArcrs',
+    voters: '180k',
+  },
+  {
+    title: '2012',
+    img: `${film_2012}`,
+    id: 5,
+    rating: 5,
+    triller: 'https://www.youtube.com/embed/Z3hf8RmHxMo',
+    voters: '180k',
+  },
+  {
+    title: '12 Years To Slave',
+    img: `${twelveYearsToSlave}`,
+    id: 6,
+    rating: 5,
+    triller: 'https://www.youtube.com/embed/z02Ie8wKKRg',
+    voters: '180k',
+  },
+];
 
 export const usersList = [
   {
@@ -220,7 +246,8 @@ export const usersList = [
         rating: 5,
         triller: 'https://www.youtube.com/embed/tTwFeGArcrs',
         voters: '180k',
-      }],
+      },
+    ],
   },
   {
     number: 'N1450',
@@ -261,7 +288,8 @@ export const usersList = [
         rating: 5,
         triller: 'https://www.youtube.com/embed/tTwFeGArcrs',
         voters: '180k',
-      }],
+      },
+    ],
   },
   {
     number: 'N1450',
@@ -302,9 +330,9 @@ export const usersList = [
         rating: 5,
         triller: 'https://www.youtube.com/embed/tTwFeGArcrs',
         voters: '180k',
-      }],
+      },
+    ],
   },
-
 ];
 export const reviewsList = [
   {
@@ -315,7 +343,7 @@ export const reviewsList = [
     avatar: `${actor_1}`,
     rating: 5,
     id: 1,
-    desc: 'This is the best movie I have ever seen. I\'ve watched it for the hundredth time, but every time it\'s like the first. In the end, it grows to tears, no matter how many times',
+    desc: "This is the best movie I have ever seen. I've watched it for the hundredth time, but every time it's like the first. In the end, it grows to tears, no matter how many times",
   },
   {
     number: 'N1450',
@@ -325,7 +353,7 @@ export const reviewsList = [
     avatar: `${actor_1}`,
     rating: 4,
     id: 4,
-    desc: 'This is the best movie I have ever seen. I\'ve watched it for the hundredth time, but every time it\'s like the first. In the end, it grows to tears, no matter how many times',
+    desc: "This is the best movie I have ever seen. I've watched it for the hundredth time, but every time it's like the first. In the end, it grows to tears, no matter how many times",
   },
   {
     number: 'N1450',
@@ -335,7 +363,7 @@ export const reviewsList = [
     rating: 5,
     avatar: `${actor_1}`,
     id: 2,
-    desc: 'This is the best movie I have ever seen. I\'ve watched it for the hundredth time, but every time it\'s like the first. In the end, it grows to tears, no matter how many times',
+    desc: "This is the best movie I have ever seen. I've watched it for the hundredth time, but every time it's like the first. In the end, it grows to tears, no matter how many times",
   },
   {
     number: 'N1450',
@@ -345,6 +373,6 @@ export const reviewsList = [
     avatar: `${actor_1}`,
     id: 3,
     rating: 5,
-    desc: 'This is the best movie I have ever seen. I\'ve watched it for the hundredth time, but every time it\'s like the first. In the end, it grows to tears, no matter how many times',
+    desc: "This is the best movie I have ever seen. I've watched it for the hundredth time, but every time it's like the first. In the end, it grows to tears, no matter how many times",
   },
 ];

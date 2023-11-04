@@ -93,7 +93,7 @@ button {
 .bcb {
   background-color: #000;
 }
-.more_btn{
+.more_btn {
   background-color: transparent;
   border: none;
   color: #e8920b;
@@ -103,6 +103,9 @@ button {
   display: flex;
   margin: 20px auto;
 }
-label{
+label {
   cursor: pointer;
+}
+.error_message{
+  color: darkred;
 }

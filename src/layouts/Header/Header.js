@@ -1,10 +1,14 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './Header.scss';
+import React from "react";
+import { Link } from "react-router-dom";
+import { PiUserCircleThin } from "react-icons/pi";
 
-import logo from './img/logo/site_logo.png';
+import "./Header.scss";
+
+import { useSelector } from "react-redux";
+import logo from "./img/logo/site_logo.png";
 
 function Header() {
+  const { user, registrationToken } = useSelector((store) => store.registration);
   return (
     <header className="header">
       <div className="header__container">
@@ -31,12 +35,20 @@ function Header() {
           </ul>
         </nav>
         <div className="header_btns">
-          <Link to="/sign-in" className="header__sign-in">
-            Sign in
-          </Link>
-          <Link to="/sign-up" className="header__sign-up btn">
-            Sign up
-          </Link>
+          {registrationToken ? (
+            <button type="button" className="user_btn">
+              <PiUserCircleThin className="user_btn_icon" />
+            </button>
+          ) : (
+            <>
+              <Link to="/sign-in" className="header__sign-in">
+                Sign in
+              </Link>
+              <Link to="/sign-up" className="header__sign-up btn">
+                Sign up
+              </Link>
+            </>
+          )}
         </div>
       </div>
     </header>

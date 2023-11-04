@@ -1,5 +1,6 @@
 .sign_in {
   background-color: rgb(28, 40, 39);
+
   &_form {
     width: 100%;
     max-width: 730px;
@@ -10,6 +11,7 @@
     background-color: rgb(6, 8, 8);
     margin-bottom: 65px;
     border-radius: 50px;
+
     &_title {
       color: #fff;
       font-size: 42px;
@@ -17,6 +19,7 @@
       text-align: center;
       margin-bottom: 50px;
     }
+
     &__inp {
       padding: 20px;
       background: rgb(180, 181, 181);
@@ -25,12 +28,14 @@
       margin-bottom: 20px;
       border-radius: 7px;
       color: #135f55;
+
       &::placeholder {
         color: #135f55;
         font-size: 18px;
         font-weight: 600;
       }
     }
+
     &__forgot {
       border: none;
       background-color: transparent;
@@ -39,6 +44,7 @@
       font-weight: 600;
       text-align: end;
     }
+
     &___or {
       display: flex;
       align-items: center;
@@ -48,29 +54,38 @@
       font-weight: 600;
       margin-bottom: 50px;
     }
+
     &_soc {
       width: fit-content;
       display: flex;
       align-items: center;
       margin: 0 auto 40px;
+
       &_item {
         padding: 10px 20px;
         background-color: rgb(255, 255, 255);
         border-radius: 10px;
+
         &:nth-child(2n) {
           margin: 0 35px;
         }
+
         &_icon {
           font-size: 48px;
         }
       }
     }
+
     &_btn {
       background-color: #e8920b;
       border-radius: 30px !important;
       padding: 10px 40px !important;
+
       &:hover {
-        background-color: #c67e11;
+        background-color: #c67e11 !important;
+      }
+      &:disabled{
+        background-color: #ccc;
       }
     }
   }

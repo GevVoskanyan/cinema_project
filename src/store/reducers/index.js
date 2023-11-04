@@ -1,6 +1,8 @@
 import { combineReducers } from '@reduxjs/toolkit';
-import test from './test';
+import registrationReducer from './registrationReducer';
+import loginReducer from './loginReducer';
 
 export default combineReducers({
-  test,
+  registration: registrationReducer,
+  login: loginReducer,
 });

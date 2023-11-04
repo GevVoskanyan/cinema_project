@@ -43,8 +43,30 @@
     &_rows {
       display: flex;
       justify-content: space-between;
+      &_name {
+        width: calc(50% - 30px);
+        display: flex;
+        justify-content: space-between;
+        &_container{
+          width: calc(100% / 2 - 10px);
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 25px;
+          & > input {
+            width: 100%;
+            margin-bottom: 5px;
+          }
+        }
+      }
+     &_inp_container{
+       width: calc(100% / 2 - 30px);
+       display: flex;
+       flex-direction: column;
+       margin-bottom: 25px;
+      }
+
       &_inp {
-        width: calc(100% / 2 - 30px);
+        width: 100%;
         height: fit-content;
         padding: 15px;
         border-radius: 10px;
@@ -53,8 +75,7 @@
         color: #135f55;
         font-weight: 600;
         outline: none;
-        margin-bottom: 25px;
-
+        margin-bottom: 5px;
         &::placeholder {
           color: #135f55;
           font-size: 18px;
@@ -68,11 +89,13 @@
       margin-left: auto;
       background-color: #e8920b;
       margin-bottom: 70px;
-      &:hover {
+      margin-top: 20px;
         &:hover {
-          color: #fff;
-          background-color: #c67e11;
+          color: #fff !important;
+          background-color: #c67e11 !important;
         }
+      &:disabled{
+        background-color: #ccc;
       }
     }
     .sign_up_form_cart_data {

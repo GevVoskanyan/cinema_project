@@ -1,14 +1,40 @@
-import React, { useCallback } from 'react';
-import './SignIn..scss';
-import { Link } from 'react-router-dom';
-import { AiFillFacebook, AiFillApple } from 'react-icons/ai';
-import { FcGoogle } from 'react-icons/fc';
-import Wrapper from '../Wrapper/Wrapper';
+import React, { useCallback, useEffect, useState } from "react";
+import * as Yup from "yup";
+
+import "./SignIn..scss";
+import { Link } from "react-router-dom";
+import { AiFillFacebook, AiFillApple } from "react-icons/ai";
+import { FcGoogle } from "react-icons/fc";
+import { useDispatch } from "react-redux";
+import Wrapper from "../Wrapper/Wrapper";
+import { loginAction } from "../../store/actions/loginAction";
+import { SignInSchema } from "../../Validations/UserValidations";
 
 function SignIn(props) {
-  const handleSubmit = useCallback((e) => {
-    e.preventDefault();
-  }, []);
+  const dispatch = useDispatch();
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [isValid, setIsValid] = useState(false);
+
+  useEffect(() => {
+    SignInSchema.isValid({ email, password }).then((valid) => {
+      setIsValid(valid);
+    });
+  }, [email, password]);
+
+  const handleSubmit = useCallback(
+    async (e) => {
+      e.preventDefault();
+      try {
+      // await validationSchema.validate({ email, password }, { abortEarly: false });
+        // dispatch(loginAction({ email, password }));
+        await SignInSchema.isValid({ email, password });
+      } catch (error) {
+        console.error("Validation error:", error.errors);
+      }
+    },
+    [email, password]
+  );
 
   return (
     <section className="sign_in">
@@ -18,12 +44,16 @@ function SignIn(props) {
           <input
             type="text"
             className="sign_in_form__inp"
-            placeholder="Username"
+            placeholder="Email"
+            value={email}
+            onChange={(ev) => setEmail(ev.target.value)}
           />
           <input
             type="text"
             className="sign_in_form__inp"
             placeholder="Password"
+            value={password}
+            onChange={(ev) => setPassword(ev.target.value)}
           />
           <button type="button" className="sign_in_form__forgot">
             Forgot password
@@ -40,7 +70,9 @@ function SignIn(props) {
               <AiFillApple className="sign_in_form_soc_item_icon" />
             </a>
           </div>
-          <button type="submit" className="btn sign_in_form_btn">Sign In</button>
+          <button type="submit" className="btn sign_in_form_btn btn_orange" disabled={!isValid}>
+            Sign In
+          </button>
         </form>
       </Wrapper>
     </section>
